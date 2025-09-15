@@ -1,0 +1,32 @@
+.overlay {
+    position: absolute;
+    inset: 0;
+    background: rgb(0 0 0 / 50%);
+}
+
+.content {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    min-width: 320px;
+    max-height: 85vh;
+    padding: 25px;
+
+    background-color: white;
+    border-radius: 6px;
+    box-shadow:
+            hsl(206deg 22% 7% / 35%) 0 10px 38px -10px,
+            hsl(206deg 22% 7% / 20%) 0 10px 20px -15px;
+}
+
+.title {
+    margin: 0;
+}
+
+.closeIcon {
+    position: absolute;
+    top: 15px;
+    right: 15px;
+}
